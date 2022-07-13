@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="auto">  
     <head>
         <title>html tags testing</title>
+        <meta charset="UTF-8">
     </head>
 
     <body>
         <header>
             <h3>This site is for html elements testing</h3>
+            <audio controls src="assets/audios/Best_Free_Music_Download_Sites_(getmp3.pro).mp3"></audio>
+
+            <video controls width="250">
+                <source src="/media/cc0-videos/flower.webm">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
         </header>
 
         <main>
+            
             <label for="search"><strong>Search</strong> </label>
             <input type="text" id="search">
             <h1>It is a section test</h1>
@@ -20,6 +28,10 @@
                     <hr />
                     <p>This is an <i>idiomatic text element</i>, wow, amazing</p>
                     <link rel="stylesheet" href="index.html">
+
+                    <link href="/media/examples/link-element-example.css" rel="stylesheet">
+                    <p>This text will be red as defined in the external stylesheet.</p>
+
                     <p>main partmain partmain partmain partmain partmain partmain partmain part</p>
                     <aside><p> this part is indirectly related to the main part</p> </aside>
                     <p>span elements, different from below, check dev tool</p>
@@ -36,8 +48,7 @@
                         <img src="assets/images/Alex.png" alt="no img">
                     </picture>
                     <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" frameborder="0"></iframe>
-                    <audio src="assets/audios/Best_Free_Music_Download_Sites_(getmp3.pro).mp3">youtube audio</audio> <!-- I couldn't find an audio file for this example -->
-                    <video src="https://www.youtube.com/watch?v=h_D3VFfhvs4">smooth criminal</video>
+                   
                     
                     <script>
                         window.addEventListener ('load', function () {
@@ -51,7 +62,7 @@
                     </script>
                     <canvas id="canvas" width="300" height="300"></canvas>
                     
-                    <p>this is a <svg>svg</svg> tag </p>
+                    <p>this is a <svg style="border: 1px solid; color:red">svg</svg> tag </p>
                     <ol>
                         <li>a</li>
                         <li>b</li>
